@@ -7,7 +7,7 @@ export const Recipes = () => {
   const [getrecipes, setrecipes] = React.useState([]);
   const user = useSelector(state => state.auth.userData);
   React.useEffect(() => {
-    fetch(`http://localhost:3000/recipes`)
+    fetch(`https://indiafood-server.herokuapp.com/recipes`)
       .then((res) => res.json())
       .then((res) => setrecipes(res))
       .then((res) => console.log(res))

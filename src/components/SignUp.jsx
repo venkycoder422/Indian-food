@@ -17,7 +17,7 @@ export const SignUpForm = () => {
         e.preventDefault();
         axios({
             method: "get",
-            url: 'http://localhost:3000/user'
+            url: 'https://indiafood-server.herokuapp.com/user'
         })
             .then((res => {
                 //console.log(res.data)
@@ -36,7 +36,7 @@ export const SignUpForm = () => {
         console.log("CALLING1")
         //console.log(User);
         if (validateCheck()) {
-            axios.post('http://localhost:3000/user', {
+            axios.post('https://indiafood-server.herokuapp.com/user', {
                 name,
                 email,
                 password
