@@ -127,3 +127,23 @@ form .signup-link a{
 form .signup-link a:hover{
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 575px) {
+.container{
+  display: block;
+  background: #fff;
+  width: 90%;
+  padding: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+}
+
+@media only screen and (max-width: 900px) {
+  .container{
+    display: block;
+    background: #fff;
+    width: 300px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+}

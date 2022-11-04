@@ -26,7 +26,7 @@ export const Recipes = () => {
           {
             getrecipes?.map((data) => (
               <div>
-                <Link to=""> <h2>{data.category}</h2></Link>
+                <Link to={`/recipes/${data.id}`}> <h2>{data.category}</h2></Link>
               </div>
             ))
 
