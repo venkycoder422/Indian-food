@@ -26,7 +26,10 @@ export const Recipes = () => {
           {
             getrecipes?.map((data) => (
               <div>
-                <Link to={`/recipes/${data.id}`}> <h2>{data.category}</h2></Link>
+                {
+                  user?<Link to={`/recipes/${data.id}`}> <h2>{data.category}</h2></Link>:<Link to=''> <h2>{data.category}</h2></Link>
+                }
+                
               </div>
             ))
 
