@@ -10,7 +10,7 @@
   - Login, Sign Up with redux
   - Recipes page with detailed information
 ## Indian Food
-  # clone <a>https://github.com/venkycoder422/Indian-food.git</a>
+  # clone <a target="_blank">https://github.com/venkycoder422/Indian-food.git</a>
  ![Indian food](https://user-images.githubusercontent.com/76251822/200127378-8f9c4cb3-5d14-408e-a25d-98524e242da8.png)
 
 
