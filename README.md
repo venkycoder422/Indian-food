@@ -10,6 +10,7 @@
   - Login, Sign Up with redux
   - Recipes page with detailed information
 ## Indian Food
+- This website shares the ideas about recipes, cooking techniques and tools requirements for preparing recipes.
   # Installation
   - git clone https://github.com/venkycoder422/Indian-food.git
   - npm install
