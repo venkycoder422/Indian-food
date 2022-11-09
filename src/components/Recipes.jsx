@@ -40,7 +40,7 @@ export const Recipes = () => {
       <div className='recipes_div'>
         {
           getrecipes?.map((data) => (
-            <div style={{ margin: "0%" }}>
+            <div style={{ margin: "0%",minHeight:"300px"}}>
               {
                 user ? <Link to={`/recipes/${data.id}`}><img src={data.img}></img></Link> : <img src={data.img}></img>
               }
