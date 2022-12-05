@@ -17,7 +17,7 @@ export const SignUpForm = () => {
         e.preventDefault();
         axios({
             method: "get",
-            url: 'https://indiafood-server.herokuapp.com/user'
+            url: 'https://indian-food.onrender.com/user'
         })
             .then((res => {
                 //console.log(res.data)
@@ -36,7 +36,7 @@ export const SignUpForm = () => {
         console.log("CALLING1")
         //console.log(User);
         if (validateCheck()) {
-            axios.post('https://indiafood-server.herokuapp.com/user', {
+            axios.post('https://indian-food.onrender.com/user', {
                 name,
                 email,
                 password

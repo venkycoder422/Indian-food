@@ -14,7 +14,7 @@ export const SingleRecipe = () => {
     const [check, setCheck] = useState(true);
     console.log(id);
     React.useEffect(() => {
-        fetch(`https://indiafood-server.herokuapp.com/recipes/${id}`)
+        fetch(`https://indian-food.onrender.com/recipes/${id}`)
             .then((res) => res.json())
             .then((res) => setrecipe(res))
             .then((err) => console.log(err))

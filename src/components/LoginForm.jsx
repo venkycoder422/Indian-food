@@ -22,7 +22,7 @@ export const LoginForm = () => {
   const addDataHandler = (e) => {
 
     e.preventDefault();
-    axios.get('https://indiafood-server.herokuapp.com/user')
+    axios.get('https://indian-food.onrender.com/user')
       .then(function (response) {
         // handle success
         setUserData(response.data);
